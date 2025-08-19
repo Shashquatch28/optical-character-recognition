@@ -1,0 +1,48 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ---- Virtual environments ----
+ocr_venv/
+venv/
+.venv/
+env/
+.env
+.env.*
+
+# ---- IDE / Editors ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Logs / Artifacts ----
+*.log
+logs/
+outputs/
+checkpoints/
+runs/
+
+# ---- MLflow ----
+mlruns/
+mlartifacts/
+
+# ---- DVC internals ----
+**/.dvc/cache/**
+**/.dvc/tmp/**
+
+# NOTE:
+# Do NOT ignore *.dvc, dvc.yaml or dvc.lock — they must be committed
