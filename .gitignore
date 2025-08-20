@@ -47,6 +47,9 @@ mlartifacts/
 **/.dvc/cache/**
 **/.dvc/tmp/**
 
+# ---- Data ---
+data/annotations/
+
 
 # NOTE:
 # Do NOT ignore *.dvc, dvc.yaml or dvc.lock — they must be committed
