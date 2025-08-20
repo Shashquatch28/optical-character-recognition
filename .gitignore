@@ -22,12 +22,15 @@ env/
 .idea/
 *.swp
 
+
+
 # ---- OS junk ----
 .DS_Store
 Thumbs.db
 
 # ---- Notebooks ----
 .ipynb_checkpoints/
+*.ipynb~
 
 # ---- Logs / Artifacts ----
 *.log
@@ -44,8 +47,6 @@ mlartifacts/
 **/.dvc/cache/**
 **/.dvc/tmp/**
 
-# ---- data ----
-data/
 
 # NOTE:
 # Do NOT ignore *.dvc, dvc.yaml or dvc.lock — they must be committed
