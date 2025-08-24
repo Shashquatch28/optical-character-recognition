@@ -50,6 +50,7 @@ mlartifacts/
 
 # ---- Data ---
 data/annotations/
+rare_characters.csv
 
 
 # NOTE:
