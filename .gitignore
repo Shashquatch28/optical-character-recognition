@@ -29,6 +29,7 @@ env/
 Thumbs.db
 
 # ---- Notebooks ----
+script_testing.ipynb
 .ipynb_checkpoints/
 *.ipynb~
 
