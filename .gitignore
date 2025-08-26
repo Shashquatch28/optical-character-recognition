@@ -51,6 +51,8 @@ mlartifacts/
 # ---- Data ---
 data/annotations/
 rare_characters.csv
+printed_streaming.parquet
+handwritten_aug_streaming.parquet
 
 
 # NOTE:
