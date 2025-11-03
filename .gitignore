@@ -1,59 +1,54 @@
-# ---- Python ----
-__pycache__/
-*.py[cod]
-*.pyd
-*.pyo
-*.so
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.coverage
-
-# ---- Virtual environments ----
-ocr_venv/
-venv/
-.venv/
-env/
-.env
-.env.*
-
-# ---- IDE / Editors ----
-.vscode/
-.idea/
-*.swp
-
-
-
-# ---- OS junk ----
-.DS_Store
-Thumbs.db
-
-# ---- Notebooks ----
-script_testing.ipynb
+# Jupyter notebooks and checkpoints
+*.ipynb
 .ipynb_checkpoints/
-*.ipynb~
+**/.ipynb_checkpoints/
+.jupyter/
 
-# ---- Logs / Artifacts ----
-*.log
-logs/
-outputs/
-checkpoints/
-runs/
+# Project data directories
+data/
+data/**
+output/processed_data/
 
-# ---- MLflow ----
-mlruns/
-mlartifacts/
+# Common data and artifact file types (expand/trim as needed)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.xls
+*.xlsx
+*.jsonl
+*.orc
 
-# ---- DVC internals ----
-**/.dvc/cache/**
-**/.dvc/tmp/**
+# Compressed archives and large blobs
+*.zip
+*.gz
+*.bz2
+*.xz
+*.zst
+*.7z
+*.rar
+*.tar
 
-# ---- Data ---
-data/annotations/
-rare_characters.csv
-printed_streaming.parquet
-handwritten_aug_streaming.parquet
+# ML/Model artifacts
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.ckpt
+*.weights
+*.model
 
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
 
-# NOTE:
-# Do NOT ignore *.dvc, dvc.yaml or dvc.lock — they must be committed
